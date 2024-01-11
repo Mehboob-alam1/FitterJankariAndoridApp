@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "980744898401",
+    "firebase_url": "https://fitter-ki-puri-jankari.firebaseio.com",
+    "project_id": "fitter-ki-puri-jankari",
+    "storage_bucket": "fitter-ki-puri-jankari.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980744898401:android:7a1542873ebb1234fee720",
+        "android_client_info": {
+          "package_name": "com.fitterkipurijankarisalman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980744898401-q4u0t6jjmd10752c38ob49lfr23f6mcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgg_ZFSSlSeYkvIW517rOcAbWCmSa9UCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980744898401-q4u0t6jjmd10752c38ob49lfr23f6mcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

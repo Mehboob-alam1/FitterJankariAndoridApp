@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ftab2">
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/screen1_recyclerview"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:backgroundTint="#D0C8C8FE"
+            android:fontFamily="monospace"
+            android:text="pipe od chart"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="s s pipe weight kg/m chart"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#D0C8C8FE"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="pipe schedule chart"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="flange od id pcd chart"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="spanner size chart"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="plate weight kg/sq meter"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="drawing shortcut"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="structure drawing symbol"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="beam unit weigth"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="angle weigth kg per meter"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="channel unit weight"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="chqd plate unit weigth"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="rail unit weight"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="ub unit weight"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="wpb unit weight"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.concentricreducermenu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3E3E0"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/plate_ka_flange_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Plate se flange kaise banaye" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/seven_meter_flange_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="10 meter dia flange formula" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/flange_fabrication_live_3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Flange fabrication live video" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/types_of_flange_4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Flange kitne prakar ke hote hai?" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/flange_fitup_in_any_degree_part_25" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Flange ko kisi bhi degree me fitup kaise kare" />
+
+    </LinearLayout>
+
+</ScrollView>

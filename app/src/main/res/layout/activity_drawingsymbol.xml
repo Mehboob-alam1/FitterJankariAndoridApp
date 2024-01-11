@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.drawingsymbol">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ic_launcher_background"
+        android:layout_gravity="left"
+        android:orientation="vertical">
+
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/drawingkitneprakarkehotehai_adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_structuredrawingsymbol" />
+
+        <Button
+            android:id="@+id/button1"
+            android:foreground="@drawable/center_line_symbol"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="1px"
+            android:layout_marginBottom="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="monospace"
+            android:textAlignment="textStart"
+            android:backgroundTint="#00EFF1D9"
+            android:textSize="15dp"
+            android:text="center line"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:foreground="@drawable/radius_symbol"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="radius"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#00EFF1D9"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:foreground="@drawable/diameter_symbol"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="diameter"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:backgroundTint="#00EFF1D9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:foreground="@drawable/angle_symboll"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="angle"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:backgroundTint="#00EFF1D9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:foreground="@drawable/channel_symbol"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="channel"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:backgroundTint="#00EFF1D9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:foreground="@drawable/beam_symboll"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="beam"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:backgroundTint="#00EFF1D9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button7"
+            android:foreground="@drawable/pipe_symbole"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="pipe"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:backgroundTint="#00EFF1D9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:foreground="@drawable/visible_line"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="visible line"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:backgroundTint="#00EFF1D9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button9"
+            android:foreground="@drawable/dimension_line"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="dimension line"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:backgroundTint="#00EFF1D9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button10"
+            android:foreground="@drawable/center_line"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="center line"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:backgroundTint="#00EFF1D9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button11"
+            android:foreground="@drawable/hidden_line"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="hidden line"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:backgroundTint="#00EFF1D9"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <!--  <Button
+                   android:id="@+id/button12"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="12. TOBKT = TOP OF BRACKET"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button13"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="13. FOF = FACE OF FLANG"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button14"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="14. TP = TIE IN POINT"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+
+
+               <Button
+                   android:id="@+id/button15"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="15. LG = LENGTH"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button16"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="16. H = HEIGHT"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button17"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="17. W = WIDTH"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button18"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="18. B = BREADTH"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button19"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="19. UOS = UNLESS OTHERWISE SPECIFIED"
+                   android:textAlignment="textStart"
+                   android:textSize="14dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button20"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="20. FFL = FINISHED FLOOR LEVEL"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button21"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="21. HPP = HEIGHT POINT PAVING"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button22"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="22. LPP = LOW POINT PAVING"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button23"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="23. HPFS = HIGH POINT OF FINISHED SURFACE"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button24"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="24. WP = WORKING POINT"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button25"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="25. SP = SLIDING POINT"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button26"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="26. FP = FIXED POINT"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button27"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="27. TOS = TOP OF STEEL"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button28"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="28. SA = SAG ANGLE"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button29"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="29. BL = BATTERY LIMIT"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button30"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="30. ISBL = INSIDE BATTERY LIMIT"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+               <Button
+                   android:id="@+id/button31"
+                   android:layout_width="match_parent"
+                   android:layout_height="65dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="1px"
+                   android:layout_marginRight="5dp"
+                   android:layout_marginBottom="1px"
+                   android:fontFamily="monospace"
+                   android:text="31. OSBL = OUTSIDE BATTERY LIMIT"
+                   android:textAlignment="textStart"
+                   android:textSize="15dp"
+                   android:backgroundTint="#00EFF1D9"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />          -->
+    </LinearLayout>
+
+</ScrollView>

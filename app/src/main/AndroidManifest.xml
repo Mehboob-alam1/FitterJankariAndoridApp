@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/fitterkipurijankari_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/fitterkipurijankari_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.typesofhitches"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofdshackle"
+            android:exported="false" />
+        <activity
+            android:name=".activity.safetyhelmetcolors"
+            android:exported="false" />
+        <activity
+            android:name=".activity.anydegreeelbowcuttingvideo"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekamiddlediacalculationvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekaradiuskaisenikalevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekaradiuskaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekaradiuskeliyedegreekaisenikalevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofvalvevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtofinddegreevideo2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtofinddegreevideo1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtofinddegreevideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtofitupflangevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ybranchkaisebanayevideo3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ybranchkaisebanayevideo2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequallateralteevideo4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequallateralteevideo3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequallateralteevideo2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequallateralteevideo1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.equallateralteebranch4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.equallateralteebranch3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequallateralteebranchvideomenoo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.header_hole_unequal_lateral_tee_video"
+            android:exported="false" />
+        <activity
+            android:name=".activity.header_hole_equal_lateral_tee_video"
+            android:exported="false" />
+        <activity
+            android:name=".activity.header_hole_unequal_tee_video"
+            android:exported="false" />
+        <activity
+            android:name=".activity.header_hole_equal_tee_video"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".activity.header_hole_equal_tee_video" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".SubscriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.header_hole_unequal_lateral_tee_pdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.header_hole_equal_lateral_tee_pdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.header_hole_unequal_tee_pdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.header_hole_equal_tee_pdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.sspipewightchart"
+            android:exported="false" />
+        <activity
+            android:name=".activity.coneweightformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipebevelformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.degreetommconversion"
+            android:exported="false" />
+        <activity
+            android:name=".activity.weldingweightformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.weldingelectrodekeprakar"
+            android:exported="false" />
+        <activity
+            android:name=".activity.boltkitneprakarkehotehai"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pythagorustheoram"
+            android:exported="false" />
+        <activity
+            android:name=".activity.alldrawing"
+            android:exported="false" />
+        <activity
+            android:name=".activity.structurefabricationdrawing"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofline"
+            android:exported="false" />
+        <activity
+            android:name=".activity.drawingkitneprakarkehotehai"
+            android:exported="false" />
+        <activity
+            android:name=".activity.sincostankausekaisekare"
+            android:exported="false" />
+        <activity
+            android:name=".activity.beamkavajankaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.sariyakavajankaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platekavajankaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.anglekavajankaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.channelkavajankaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.chordtoarclength"
+            android:exported="false" />
+        <activity
+            android:name=".activity.channelmitercuttinganydegree"
+            android:exported="false" />
+        <activity
+            android:name=".activity.rightangletrick"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofbeam"
+            android:exported="false" />
+        <activity
+            android:name=".activity.isometricdrawingkipahchan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.safetytools"
+            android:exported="false" />
+        <activity
+            android:name=".activity.fitterkeliyehandtools"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipekavajankaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.nutboltkebaremejane"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofflangeclasses"
+            android:exported="false" />
+        <activity
+            android:name=".activity.degreemeflangefitupkaisekare"
+            android:exported="false" />
+        <activity
+            android:name=".activity.fourtyfivedegreeelbowcenterkaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.elbowkitneprakarkehotehai"
+            android:exported="false" />
+        <activity
+            android:name=".activity.elbowkokisibhidegreemecutting"
+            android:exported="false" />
+        <activity
+            android:name=".activity.fourtyfivedegreekaelbowkaisefitupkare"
+            android:exported="false" />
+        <activity
+            android:name=".activity.fourtyfivedegreeelbowkaisebanaye"
+            android:exported="false" />
+        <activity
+            android:name=".activity.flangekaisefitupkare"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ekcutmemitercutting"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipekathicknesskyahotahai"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipeschedulekyahotahai"
+            android:exported="false" />
+        <activity
+            android:name=".activity.radiusanddiameter"
+            android:exported="false" />
+        <activity
+            android:name=".activity.eccentricreducerpdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.concentricreducerpdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.reducerpdfmenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequallateralteebranchpdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.equallateralteebranchpdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequalteebranchpdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.equalteebranchpdf"
+            android:exported="false" />
+        <activity
+            android:name=".activity.chqdplateunitweight"
+            android:exported="false" />
+        <activity
+            android:name=".activity.railunitweight"
+            android:exported="false" />
+        <activity
+            android:name=".activity.drawingshortcutt"
+            android:exported="false" />
+        <activity
+            android:name=".activity.tankpart4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.tankpart3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.tankpart2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.tankpart1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platekatankkaisebnayevideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.piperollingoffsetvideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.miterbend1800dia22point5degreevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platekamiterkaisebanayevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.fourtyfivedegreesinglecutpart2video"
+            android:exported="false" />
+        <activity
+            android:name=".activity.fourtyfivedegreesinglecutvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.miterbend2100diavideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.miterbend1800diavideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.anydegreemitercuttingbestformulavideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.fourtyfivedegree16clmiterbend"
+            android:exported="false" />
+        <activity
+            android:name=".activity.fourtyfivedegree3cutmiterbend"
+            android:exported="false" />
+        <activity
+            android:name=".activity.fourtyfivedegree2cutmiterbend"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ninetydegree3cutmiterbendvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ninetydegree2cutmiterbendvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.konsasahihaivideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platekaeccentricreducervideo2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platetoreducervideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.basicofisometricdrawing"
+            android:exported="false" />
+        <activity
+            android:name=".activity.cglinekyahai"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofdrawing"
+            android:exported="false" />
+        <activity
+            android:name=".activity.onlyfordrawingfitter"
+            android:exported="false" />
+        <activity
+            android:name=".activity.heightkejagahpeyelikhahai"
+            android:exported="false" />
+        <activity
+            android:name=".activity.drawingkafronttopside"
+            android:exported="false" />
+        <activity
+            android:name=".activity.drawingfitterimportant2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.drawingfitterimportant1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.structurefitterbasicinformation"
+            android:exported="false" />
+        <activity
+            android:name=".activity.drawingfitterkaisebanevideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ybranchkaisebanayevideo1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ybranchvideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.squaretosquarehoppervideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.roundtorectanglehoppervideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.rectangletoroundhoppervideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.squaretoroundhoppervideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.roundtosquarehoppervideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofhoppervideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.elbowradiusvideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.miterbendvideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conevideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekavajankaisenikalevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekaisebanaye10meterdiaka"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekaisebanayevideo2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekaisebanayevideo1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conemakingformula1000X2000"
+            android:exported="false" />
+        <activity
+            android:name=".activity.coneformulagalathaikya"
+            android:exported="false" />
+        <activity
+            android:name=".activity.flangefitupanydegreevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofflangevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.flangefabricationlivevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.sevenmeterdiaflange"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platekaflangekaisebanayevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.equallateralteebranch2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.equallateralteebranch1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.equallateralteebranchvideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequalteebranchvideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequalteebranchvideo3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequalteebranchvideo2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.unequalteebranchvideo1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.equalteebranhcvideo2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.equalteebranchvideo1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.teebranchvideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platekaeccentricreducervideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.eccentricreducer10x6"
+            android:exported="false" />
+        <activity
+            android:name=".activity.eccentricreducer3x2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.eccentricreducer4x2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.concentricreduceraasantarika"
+            android:exported="false" />
+        <activity
+            android:name=".activity.concentricreducerkaisebanaye"
+            android:exported="false" />
+        <activity
+            android:name=".activity.eccentricreducermenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.concentricreducermenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.reducervideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.handrailkaisebanaye2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.handrailkaisebanaye1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.handrailkaisebanayemenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.staircaselayoutvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.staircasevideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.rightangletheorypart2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.rightangletheorypart1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platekarightanglevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.toaisebantahaiyesupportvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.filletweldkavajankaisenikalevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.weldingkavajankaisenikalevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.beamchannelanglekaweightkaisenikalevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platekavajankaisenikalevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipekavajankaisenikalevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.watchmorevideos"
+            android:exported="false" />
+        <activity
+            android:name=".activity.weightcalculationvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.measurementtapekebaremevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipeidodcfnpsdnnbvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.miterbend180degreevideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.chordlengthtoarclengthvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.arclengthtochordlengthvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.chordlengthvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.arclengthvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.dummysupportvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.anydegreepipeoffset"
+            android:exported="false" />
+        <activity
+            android:name=".activity.tenmeterdiaflange"
+            android:exported="false" />
+        <activity
+            android:name=".activity.drawingfitterimportantvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofhoppervideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.miterbendlayoutvido"
+            android:exported="false" />
+        <activity
+            android:name=".activity.elbowradiusvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.waterlevelkaisecheckkare"
+            android:exported="false" />
+        <activity
+            android:name=".activity.rpadkaisebanaye"
+            android:exported="false" />
+        <activity
+            android:name=".activity.dia1800miterbendvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platetoreducervideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart29"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart28"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart27"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart26"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart25"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart24"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart23"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart22"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart21"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart20"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart19"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart18"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart17"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart16"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart15"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart14"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart13"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart12"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart11"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart10"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart9"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart8"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart7"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart6"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefittertrainingpart1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtomakeflangevideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.staircasekaisebanaye"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platerightangletrickmenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.canteleversupportvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.learnisometricdrawing"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipefitterbasictoadvancemenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.staircasekafittingvideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.columnkaisebanatehaivideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.gallerykaisebanatehaivideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.builtupkaisebanatehaivideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.aaiyesitedikhatehai"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".activity.liveworkingvideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.veryimportantforcolumnfabrication"
+            android:exported="false" />
+        <activity
+            android:name=".activity.diagonalkyahotahai"
+            android:exported="false" />
+        <activity
+            android:name=".activity.metalweightformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.elbowcenterradius"
+            android:exported="false" />
+        <activity
+            android:name=".activity.reducerformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.flangeformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ybranchformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.bigdiametermiterformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekamiddlediameterkaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekadegreekaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.conekaradiuskeliyedegreekaisenikale"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtocalculatechordlength"
+            android:exported="false" />
+        <activity
+            android:name=".activity.elbowformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.wpbunitweight"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ubunitweight"
+            android:exported="false" />
+        <activity
+            android:name=".activity.channelunitweight"
+            android:exported="false" />
+        <activity
+            android:name=".activity.angleweightkgpermeter"
+            android:exported="false" />
+        <activity
+            android:name=".activity.beamunitweight"
+            android:exported="false" />
+        <activity
+            android:name=".activity.plateweightkgpersqmeter"
+            android:exported="false" />
+        <activity
+            android:name=".activity.spannersizechart"
+            android:exported="false" />
+        <activity
+            android:name=".activity.flangeodidpcdchart"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipeschedulechart"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashActivityNew"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.pipeodchart"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.equalteebranchvideomenu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipingdoublerolling"
+            android:exported="false" />
+        <activity
+            android:name=".activity.privacypolicy"
+            android:exported="false" />
+        <activity
+            android:name=".activity.usesofpythagorustheorem"
+            android:exported="false" />
+        <activity
+            android:name=".activity.usesofsincostan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.arclengthtochordlength"
+            android:exported="false" />
+        <activity
+            android:name=".activity.chordlength"
+            android:exported="false" />
+        <activity
+            android:name=".activity.arclength"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipingsinglerolling"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtomakeplatetank"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtomakeflange"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofvalve"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtofinddegree"
+            android:exported="false" />
+        <activity
+            android:name=".activity.offset"
+            android:exported="false" />
+        <activity
+            android:name=".activity.cutting"
+            android:exported="false" />
+        <activity
+            android:name=".activity.welding"
+            android:exported="false" />
+        <activity
+            android:name=".activity.nutbolts"
+            android:exported="false" />
+        <activity
+            android:name=".activity.whatiscfidod"
+            android:exported="false" />
+        <activity
+            android:name=".activity.drawingsymbol"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipeweightkgpermeter"
+            android:exported="false" />
+        <activity
+            android:name=".activity.coneformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.platetopipefabrication"
+            android:exported="false" />
+        <activity
+            android:name=".activity.importantshortcut"
+            android:exported="false" />
+        <activity
+            android:name=".activity.importantmeasurement"
+            android:exported="false" />
+        <activity
+            android:name=".activity.pipesupporting"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtomaketeebranch"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtomakeybranch"
+            android:exported="false" />
+        <activity
+            android:name=".activity.singlemitercutbend"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofweldolet"
+            android:exported="false" />
+        <activity
+            android:name=".activity.flangemakingformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.typesofflange"
+            android:exported="false" />
+        <activity
+            android:name=".activity.rightangleformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.elbowcenterformulavideo"
+            android:exported="false" />
+        <activity
+            android:name=".activity.flangeqna"
+            android:exported="false" />
+        <activity
+            android:name=".activity.teebranch"
+            android:exported="false" />
+        <activity
+            android:name=".activity.headerholeformula"
+            android:exported="false" />
+        <activity
+            android:name=".activity.npsdnnbidod"
+            android:exported="false" />
+        <activity
+            android:name=".activity.anydegreeelbowcutting"
+            android:exported="false" />
+        <activity
+            android:name=".activity.interviewqna"
+            android:exported="false" />
+        <activity
+            android:name=".activity.colorsofpipeline"
+            android:exported="false" />
+        <activity
+            android:name=".activity.howtomakeelbow"
+            android:exported="false" />
+        <activity
+            android:name=".activity.elbowcentercalculation"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+    </application>
+
+</manifest>

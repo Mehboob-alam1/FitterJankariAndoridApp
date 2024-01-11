@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.weightcalculationvideo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3E3E0"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/pipe_ka_vajan_kaise_nikale" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Pipe ka vajan kaise nikale" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/plate_ka_vajan_kaise_nikale" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Plate ka vajan kaise nikale" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/beam_channel_angle_ka_vajan_kaise_nikale" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Beam channel angle ka vajan kaise nikale" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/cone_ka_vajan_kaise_nikale" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Cone ka vajan kaise nikale" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/welding_ka_vajan_kaise_nikale" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Fillet weld ka vajan kaise nikale" />
+
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/how_to_calculate_welding_weight" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Welding ka vajan kaise nikale" />
+
+    </LinearLayout>
+
+</ScrollView>

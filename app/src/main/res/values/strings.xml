@@ -1,0 +1,502 @@
+<resources>
+    <string name="app_name">FITTER KI PURI JANKARI</string>
+
+    <string name="admob_app_id">ca-app-pub-9876327746881591~2859930731</string>
+
+
+    <string name="_1_month_title">1-Month</string>
+    <string name="total_price_one_month">$12.99 Monthly</string>
+
+    <string name="_6_month_title">6-Month</string>
+    <string name="total_price_six_month">$12.99 Monthly</string>
+
+    <string name="_1_year_title">1-Year</string>-->
+    <string name="total_price_one_year">$12.99 Monthly</string>
+
+    <string name="subscription_policy">Recurring billing, Cancel anytime on Google Play Store.</string>
+
+
+    <!--Ftab1.banner id's-->
+    <string name="admob_banner_elbowkaisebanaye">ca-app-pub-9876327746881591/7012081312</string>
+    <string name="admob_banner_reducerkaisebanaye">ca-app-pub-9876327746881591/5778890695</string>
+    <string name="admob_banner_teebranchkaisebanaye">ca-app-pub-9876327746881591/3891093957</string>
+    <string name="admob_banner_ybranchkaisebanaye">ca-app-pub-9876327746881591/5152204736</string>
+    <string name="admob_banner_idodcfkyahotahai">ca-app-pub-9876327746881591/5535348112</string>
+    <string name="admob_banner_radiusaurdiameter">ca-app-pub-9876327746881591/4846465868</string>
+    <string name="admob_banner_pipeschedulekyahotahai">ca-app-pub-9876327746881591/2711257117</string>
+    <string name="admob_banner_pipekathicknesskyahotahai">ca-app-pub-9876327746881591/6552916317</string>
+    <string name="admob_banner_npsdnidodkyahotahai">ca-app-pub-9876327746881591/3188386378</string>
+    <string name="admob_banner_elbowcenterkaisenikale">ca-app-pub-9876327746881591/9306501346</string>
+    <string name="admob_banner_ekcutmemitercutting">ca-app-pub-9876327746881591/9743569325</string>
+    <string name="admob_banner_flangekaisefitupkare">ca-app-pub-9876327746881591/2248222685</string>
+    <string name="admob_banner_platekaflangekaisebanaye">ca-app-pub-9876327746881591/4884611421</string>
+    <string name="admob_banner_fourtyfivedegreeelbowkaisebanaye">ca-app-pub-9876327746881591/3752876043</string>
+    <string name="admob_banner_fourtyfivedegreeelbowfitup">ca-app-pub-9876327746881591/6225613250</string>
+    <string name="admob_banner_elbowkokisibhidegreemecutting">ca-app-pub-9876327746881591/4818545705</string>
+    <string name="admob_banner_elbowkitneprakarkehotehai">ca-app-pub-9124586119496875/8992337854</string>
+    <string name="admob_banner_fourtyfivedegreekaelbowcenterkaisenikale">ca-app-pub-9876327746881591/9140934099</string>
+    <string name="admob_banner_degreekaisenikale">ca-app-pub-9876327746881591/2394179456</string>
+    <string name="admob_banner_degreemeflangekaisefitupkare">ca-app-pub-9876327746881591/7089485823</string>
+    <string name="admob_banner_flangekitneclasskehotehai">ca-app-pub-9876327746881591/1177564035</string>
+    <string name="admob_banner_valvekitneprakarkehotehai">ca-app-pub-9876327746881591/5832244474</string>
+    <string name="admob_banner_nutboltkebaremejane">ca-app-pub-9124586119496875/2524035458</string>
+    <string name="admob_banner_boltkitneprakarkehotehai">ca-app-pub-9876327746881591/7339647703</string>
+    <string name="admob_banner_colorsofpipeline">ca-app-pub-9876327746881591/6984424483</string>
+    <string name="admob_banner_pipekavajankaisenikale">ca-app-pub-9876327746881591/3428322857</string>
+    <string name="admob_banner_weldingelectrodekeprakar">ca-app-pub-9876327746881591/5477021251</string>
+    <string name="admob_banner_weldinginformation">ca-app-pub-9876327746881591/7248433776</string>
+    <string name="admob_banner_cuttinginformation">ca-app-pub-9876327746881591/2425969043</string>
+    <string name="admob_banner_platekavajan">ca-app-pub-9876327746881591/3401522259</string>
+    <string name="admob_banner_anglekavajankaisenikale">ca-app-pub-9876327746881591/4505052068</string>
+    <string name="admob_banner_channelkavajankaisenikale">ca-app-pub-9876327746881591/7011247163</string>
+    <string name="admob_banner_barkavajankaisenikale">ca-app-pub-9876327746881591/2570822160</string>
+    <string name="admob_banner_beamkavajankaisenikale">ca-app-pub-9876327746881591/8189694940</string>
+    <string name="admob_banner_drawingkitneprakarkehotehai">ca-app-pub-9124586119496875/9619857961</string>
+    <string name="admob_banner_linekitneprakarkehotehai">ca-app-pub-9124586119496875/9619857961</string>
+    <string name="admob_banner_typesofvalve">ca-app-pub-9124586119496875/9619857961</string>
+
+
+    <!--Ftab1..interstitial id's-->
+
+    <string name="admob_interstitial_id_elbowkaisebanaye">ca-app-pub-9876327746881591/3221359165</string>
+    <string name="admob_interstitial_id_reducerkaisebanaye">ca-app-pub-9876327746881591/6790451971</string>
+    <string name="admob_interstitial_id_teebranchkaisebanaye">ca-app-pub-9876327746881591/6598880286</string>
+    <string name="admob_rewarded_id_equalteebranchpdf">ca-app-pub-9876327746881591/2537998739</string>
+    <string name="admob_rewarded_id_unequalteebranchpdf">ca-app-pub-9876327746881591/8714155156</string>
+    <string name="admob_rewarded_id_equallateralteebranchpdf">ca-app-pub-9876327746881591/7528818579</string>
+    <string name="admob_rewarded_id_unequallateralteebranchpdf">ca-app-pub-9876327746881591/8720263702</string>
+    <string name="admob_interstitial_id_ybranchkaisebanaye">ca-app-pub-9876327746881591/7337246889</string>
+    <string name="admob_interstitial_id_idodcfkyahotahai">ca-app-pub-9876327746881591/3467937029</string>
+    <string name="admob_interstitial_id_radiusaurdiameter">ca-app-pub-9876327746881591/8522583469</string>
+    <string name="admob_interstitial_id_pipeschedulekyahotahai">ca-app-pub-9876327746881591/7145675190</string>
+    <string name="admob_interstitial_id_pipekathicknesskyahotahai">ca-app-pub-9876327746881591/7832070902</string>
+    <string name="admob_interstitial_id_npsdnnbidodkyahotahai">ca-app-pub-9876327746881591/1266662553</string>
+    <string name="admob_interstitial_id_elbowcenterkaisenikale">ca-app-pub-9876327746881591/3081720374</string>
+    <string name="admob_interstitial_id_ekcutmemitercutting">ca-app-pub-9876327746881591/9785647958</string>
+    <string name="admob_interstitial_id_flangekaisefitupkare">ca-app-pub-9876327746881591/8145548637</string>
+    <string name="admob_interstitial_id_platekaflangekaisebanaye">ca-app-pub-9876327746881591/1075090864</string>
+    <string name="admob_interstitial_id_fourtyfivedegreekaelbowkaisebanaye">ca-app-pub-9876327746881591/2893221950</string>
+    <string name="admob_interstitial_id_fourtyfivedegreeelbowfitup">ca-app-pub-9876327746881591/7464938072</string>
+    <string name="admob_interstitial_id_elbowkokisibhidegreemecutting">ca-app-pub-9876327746881591/5513276745</string>
+    <string name="admob_interstitial_id_elbowkitneprakarkehotehai">ca-app-pub-9876327746881591/4200195073</string>
+    <string name="admob_interstitial_id_fourtyfivedegreekaelbowcenterkaisenikale">ca-app-pub-9876327746881591/7762405250</string>
+    <string name="admob_interstitial_id_degreekaisenikale">ca-app-pub-9876327746881591/9197123468</string>
+    <string name="admob_interstitial_id_degreemeflangekaisefitupkare">ca-app-pub-9876327746881591/4822764188</string>
+    <string name="admob_interstitial_id_flangekitneprakarkehotehai">ca-app-pub-9876327746881591/3944796780</string>
+    <string name="admob_interstitial_id_flangekitneclasskehotehai">ca-app-pub-9876327746881591/8570437509</string>
+    <string name="admob_interstitial_id_valvekitneprakarkehotehai">ca-app-pub-9876327746881591/4631192497</string>
+    <string name="admob_interstitial_id_nutboltkebaremejane">ca-app-pub-9876327746881591/3248445175</string>
+    <string name="admob_interstitial_id_boltkitneprakarkehotehai">ca-app-pub-9876327746881591/3056873486</string>
+    <string name="admob_interstitial_id_pipesupportkeprakar">ca-app-pub-9876327746881591/6443215035</string>
+    <string name="admob_interstitial_id_colorsofpipeline">ca-app-pub-9876327746881591/3986811779</string>
+    <string name="admob_interstitial_id_pipekavajankaisenikale">ca-app-pub-9876327746881591/1190888354</string>
+    <string name="admob_interstitial_id_importantmeasurementforfitter">ca-app-pub-9876327746881591/4621499928</string>
+    <string name="admob_interstitial_id_importantshortcutforfitter">ca-app-pub-9876327746881591/3767034517</string>
+    <string name="admob_interstitial_id_fitterhandtool">ca-app-pub-9876327746881591/5743009904</string>
+    <string name="admob_interstitial_id_safetytool">ca-app-pub-9876327746881591/3116846569</string>
+    <string name="admob_interstitial_id_isometricdrawingkipahchan">ca-app-pub-9876327746881591/1342684176</string>
+    <string name="admob_interstitial_id_weldinginformation">ca-app-pub-9876327746881591/2507005308</string>
+    <string name="admob_interstitial_id_weldingelectrodesketypes">ca-app-pub-9876327746881591/2925274877</string>
+    <string name="admob_interstitial_id_cuttinginformation">ca-app-pub-9876327746881591/6403439160</string>
+    <string name="admob_interstitial_id_typesofbeam">ca-app-pub-9876327746881591/7986029860</string>
+    <string name="admob_interstitial_id_rightangletrick">ca-app-pub-9876327746881591/3433908315</string>
+    <string name="admob_interstitial_id_channelmitercuttinganydegree">ca-app-pub-9876327746881591/7794458178</string>
+    <string name="admob_interstitial_id_arclength">ca-app-pub-9876327746881591/5168294833</string>
+    <string name="admob_interstitial_id_chordlength">ca-app-pub-9876327746881591/2542131490</string>
+    <string name="admob_interstitial_id_arctochordlength">ca-app-pub-9876327746881591/4976723149</string>
+    <string name="admob_interstitial_id_chordtoarclength">ca-app-pub-9876327746881591/8636217819</string>
+    <string name="admob_interstitial_id_platetopipefabrication">ca-app-pub-9876327746881591/2272622461</string>
+    <string name="admob_interstitial_id_platekavajankaisenikale">ca-app-pub-9876327746881591/5502502608</string>
+    <string name="admob_interstitial_id_channelkavajankaisenikale">ca-app-pub-9876327746881591/2876339265</string>
+    <string name="admob_interstitial_id_anglekavajankaisenikale">ca-app-pub-9876327746881591/4593579766</string>
+    <string name="admob_interstitial_id_barkavajankaisenikale">ca-app-pub-9876327746881591/9901746768</string>
+    <string name="admob_interstitial_id_beamkavajankaisenikale">ca-app-pub-9876327746881591/5828724090</string>
+    <string name="admob_interstitial_id_sincostankausekaisekare">ca-app-pub-9876327746881591/4794844023</string>
+    <string name="admob_interstitial_id_drawingkitneprakarkehotehai">ca-app-pub-9876327746881591/7131564458</string>
+    <string name="admob_interstitial_id_linekitneprakarkehotehai">ca-app-pub-9876327746881591/3997849243</string>
+    <string name="admob_interstitial_id_pythagorustheoram">ca-app-pub-9876327746881591/7578001601</string>
+    <string name="admob_interstitial_id_interviewqna">ca-app-pub-9876327746881591/5119359223</string>
+    <string name="admob_interstitial_id_structurefabricationdrawing">ca-app-pub-9876327746881591/3010989062</string>
+    <string name="admob_interstitial_id_alldrawing">ca-app-pub-9876327746881591/5062437338</string>
+    <string name="admob_interstitial_id_privacypolicy">ca-app-pub-9876327746881591/7983264085</string>
+
+
+    <!--Ftab2.banner id's-->
+    <string name="admob_banner_pipeodchart">ca-app-pub-9876327746881591/1515377908</string>
+    <string name="admob_banner_sspipewightchart">ca-app-pub-9876327746881591/4039061909</string>
+    <string name="admob_banner_pipeschedulechart">ca-app-pub-9876327746881591/9654819853</string>
+    <string name="admob_banner_flangeodidpcdchart">ca-app-pub-9876327746881591/8586400329</string>
+    <string name="admob_banner_spannersizechart">ca-app-pub-9876327746881591/3334073641</string>
+    <string name="admob_banner_plateweightkgpermeter">ca-app-pub-9876327746881591/1776329837</string>
+    <string name="admob_banner_drawingshortcut">ca-app-pub-9876327746881591/8011685250</string>
+    <string name="admob_banner_structuredrawingsymbol">ca-app-pub-9876327746881591/7632411305</string>
+    <string name="admob_banner_beamunitweight">ca-app-pub-9876327746881591/3693166294</string>
+    <string name="admob_banner_angleweightkgpermeter">ca-app-pub-9876327746881591/7440839616</string>
+    <string name="admob_banner_channelunitweight">ca-app-pub-9876327746881591/7300119256</string>
+    <string name="admob_banner_chqdplateunitweight">ca-app-pub-9876327746881591/9543139214</string>
+    <string name="admob_banner_railunitweight">ca-app-pub-9876327746881591/2445316194</string>
+    <string name="admob_banner_ubunitweight">ca-app-pub-9876327746881591/1584758144</string>
+    <string name="admob_banner_wpbunitweight">ca-app-pub-9876327746881591/9271676478</string>
+
+
+    <!--Ftab2..interstitial id's-->
+
+    <string name="admob_interstitial_id_pipeodchart">ca-app-pub-9876327746881591/9795869785</string>
+    <string name="admob_interstitial_id_pipesizewithcf">ca-app-pub-9876327746881591/8723010000</string>
+    <string name="admob_interstitial_id_pipeschedulechart">ca-app-pub-9876327746881591/3230461437</string>
+    <string name="admob_interstitial_id_flangeidodpcdchart">ca-app-pub-9876327746881591/4772705447</string>
+    <string name="admob_interstitial_id_spannersizechart">ca-app-pub-9876327746881591/4979754853</string>
+    <string name="admob_interstitial_id_plateweightkgpermeter">ca-app-pub-9876327746881591/4979754853</string>
+    <string name="admob_interstitial_id_drawingshortcut">ca-app-pub-9876327746881591/4979754853</string>
+    <string name="admob_interstitial_id_structuredrawingsymbol">ca-app-pub-9876327746881591/4979754853</string>
+    <string name="admob_interstitial_id_beamunitweight">ca-app-pub-9876327746881591/1096635574</string>
+    <string name="admob_interstitial_id_angleweightkgpermeter">ca-app-pub-9876327746881591/5670305403</string>
+    <string name="admob_interstitial_id_channelunitweight">ca-app-pub-9876327746881591/4357223739</string>
+    <string name="admob_interstitial_id_chqdplateunitweight">ca-app-pub-9876327746881591/3334951952</string>
+    <string name="admob_interstitial_id_railunitweight">ca-app-pub-9876327746881591/4389562066</string>
+    <string name="admob_interstitial_id_ubunitweight">ca-app-pub-9876327746881591/8104897053</string>
+    <string name="admob_interstitial_id_wpbunitweight">ca-app-pub-9876327746881591/4165652044</string>
+
+
+    <!--Ftab3..banner id's-->
+
+    <string name="admob_banner_conekadegreekaisenikale">ca-app-pub-9876327746881591/4757716397</string>
+    <string name="admob_banner_elbowformula">ca-app-pub-9876327746881591/9706790740</string>
+    <string name="admob_banner_howtocalculatechordlength">ca-app-pub-9876327746881591/4262892373</string>
+    <string name="admob_banner_conekaradiuskaisenikale">ca-app-pub-9876327746881591/1393186451</string>
+    <string name="admob_banner_conekaradiuskeliyedegreekaisenikale">ca-app-pub-9876327746881591/2735307841</string>
+    <string name="admob_banner_conekamiddlediakaisenikakle">ca-app-pub-9876327746881591/7796062831</string>
+    <string name="admob_banner_miterformula">ca-app-pub-9876327746881591/2323124748</string>
+    <string name="admob_banner_teebranchformula">ca-app-pub-9876327746881591/4757716397</string>
+    <string name="admob_banner_equalteebranchformula">ca-app-pub-9876327746881591/7244278937</string>
+    <string name="admob_banner_unequalteebranchformula">ca-app-pub-9876327746881591/1991952252</string>
+    <string name="admob_banner_equallateralteebranchformula">ca-app-pub-9876327746881591/1800380562</string>
+    <string name="admob_banner_unequallateralteebranchformula">ca-app-pub-9876327746881591/2921890545</string>
+    <string name="admob_banner_ybranchformula">ca-app-pub-9876327746881591/5164910507</string>
+    <string name="admob_banner_headerholeformula">ca-app-pub-9876327746881591/3473674449</string>
+    <string name="admob_banner_flangeformula">ca-app-pub-9876327746881591/8181692754</string>
+    <string name="admob_banner_reducerformula">ca-app-pub-9876327746881591/6485467707</string>
+    <string name="admob_banner_eccentricreducerpdf">ca-app-pub-9876327746881591/4789242657</string>
+    <string name="admob_banner_elbowcenterradius">ca-app-pub-9876327746881591/9658425955</string>
+    <string name="admob_banner_pipekavajanformula">ca-app-pub-9876327746881591/5527609253</string>
+    <string name="admob_banner_platekavajanformula">ca-app-pub-9876327746881591/5336037565</string>
+    <string name="admob_banner_elbowcenterradiusformula">ca-app-pub-9876327746881591/3831384206</string>
+    <string name="admob_banner_weldingweightformula">ca-app-pub-9876327746881591/1013649179</string>
+    <string name="admob_banner_degreetommconversion">ca-app-pub-9876327746881591/9211966725</string>
+    <string name="admob_banner_anydegreeelbowcuttingformula">ca-app-pub-9876327746881591/3282102750</string>
+    <string name="admob_banner_degreeformula">ca-app-pub-9876327746881591/6202660008</string>
+    <string name="admob_banner_bevelformula">ca-app-pub-9876327746881591/7324169986</string>
+    <string name="admob_banner_coneformula">ca-app-pub-9876327746881591/3193353280</string>
+    <string name="admob_banner_coneweightformula">ca-app-pub-9876327746881591/3699785595</string>
+    <string name="admob_banner_offset">ca-app-pub-9876327746881591/8731786273</string>
+
+
+    <!--Ftab3..interstitial id's-->
+
+    <string name="admob_interstitial_id_elbowformula">ca-app-pub-9876327746881591/4185903153</string>
+    <string name="admob_interstitial_id_howtocalculculatechordlength">ca-app-pub-9876327746881591/1983245795</string>
+    <string name="admob_interstitial_id_conekaradiuskaisenikale">ca-app-pub-9876327746881591/6979038710</string>
+    <string name="admob_interstitial_id_conekadegreekaisenikale">ca-app-pub-9876327746881591/6355118531</string>
+    <string name="admob_interstitial_id_conekaradiuskeliyedegreekaisenikale">ca-app-pub-9876327746881591/1791674102</string>
+    <string name="admob_interstitial_id_conekamiddlediakaisenikale">ca-app-pub-9876327746881591/3969731998</string>
+    <string name="admob_interstitial_id_miterformula">ca-app-pub-9876327746881591/1485935230</string>
+    <string name="admob_interstitial_id_teebranchformula">ca-app-pub-9876327746881591/3016577121</string>
+    <string name="admob_interstitial_id_ybranch">ca-app-pub-9876327746881591/7668200203</string>
+    <string name="admob_interstitial_id_headerholeformula">ca-app-pub-9876327746881591/6355118531</string>
+    <string name="admob_interstitial_id_flangeholeformula">ca-app-pub-9876327746881591/1656491472</string>
+    <string name="admob_interstitial_id_reducerformula">ca-app-pub-9876327746881591/1320352079</string>
+    <string name="admob_interstitial_id_elbowcenterradius">ca-app-pub-9876327746881591/1675575296</string>
+    <string name="admob_interstitial_id_pipeweightkgperm">ca-app-pub-9876327746881591/2797085274</string>
+    <string name="admob_interstitial_id_metalweightformula">ca-app-pub-9876327746881591/2605513585</string>
+    <string name="admob_interstitial_id_elbowcenterradiuss">ca-app-pub-9876327746881591/3369447256</string>
+    <string name="admob_interstitial_id_weldingweightformula">ca-app-pub-9876327746881591/5996730158</string>
+    <string name="admob_interstitial_id_degreetommconversion">ca-app-pub-9876327746881591/3178995129</string>
+    <string name="admob_interstitial_id_anydegreeelbowcuttingformula">ca-app-pub-9876327746881591/2987423432</string>
+    <string name="admob_interstitial_id_degreeformula">ca-app-pub-9876327746881591/5098581452</string>
+    <string name="admob_interstitial_id_bevelformula">ca-app-pub-9876327746881591/2603160498</string>
+    <string name="admob_interstitial_id_coneformula">ca-app-pub-9876327746881591/7473463351</string>
+    <string name="admob_interstitial_id_coneweightformula">ca-app-pub-9876327746881591/9384191265</string>
+
+
+    <!--Ftab4..rewarded id's-->
+
+    <!--LIVE WORKING VIDOS-->
+    <string name="admob_rewarded_id_liveworkingvideosmenu">9876327746881591/7451007546</string>
+    <string name="admob_rewarded_id_aaiyesitedikhatehaivideo">ca-app-pub-9876327746881591/7451007546</string>
+    <string name="admob_rewarded_id_builtupkaisebanatehaivideo">ca-app-pub-9876327746881591/7259435851</string>
+    <string name="admob_rewarded_id_gallerykaisebanatehaivideo">ca-app-pub-9876327746881591/3949093841</string>
+    <string name="admob_rewarded_id_columnkaisebanatehaivideo">ca-app-pub-9876327746881591/4879032136</string>
+    <string name="admob_rewarded_id_staircasekafittingvideo">ca-app-pub-9876327746881591/2939264507</string>
+
+    <!--Diagonal Kya hota hai-->
+    <string name="admob_rewarded_id_diagonalkyahotahai">ca-app-pub-9876327746881591/2034480591</string>
+
+    <!--very important for column fabrication-->
+    <string name="admob_rewarded_id_veryimportantforcolumnfabrication">ca-app-pub-9876327746881591/9729169606</string>
+
+
+    <!--PIPE FITTER BASIC TO ADVANCE-->
+
+    <string name="admob_interstitial_id_pipefitterbasictoadvancevideomenu">9876327746881591/5938367905</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart1">ca-app-pub-9876327746881591/2142593129</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart2">ca-app-pub-9876327746881591/2011279922</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart3">ca-app-pub-9876327746881591/8133286408</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart4">ca-app-pub-9876327746881591/9275526421</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart5">ca-app-pub-9876327746881591/1184734675</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart6">ca-app-pub-9876327746881591/6013285876</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart7">ca-app-pub-9876327746881591/7298447383</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart8">ca-app-pub-9876327746881591/6792284578</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart9">ca-app-pub-9876327746881591/8419957364</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart10">ca-app-pub-9876327746881591/4480712351</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart11">ca-app-pub-9876327746881591/9541467346</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart12">ca-app-pub-9876327746881591/4445871571</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart13">ca-app-pub-9876327746881591/6600712886</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart14">ca-app-pub-9876327746881591/3974549548</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart15">ca-app-pub-9876327746881591/9035304536</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart16">ca-app-pub-9876327746881591/8036813982</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart17">ca-app-pub-9876327746881591/9965242824</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart18">ca-app-pub-9876327746881591/7339079481</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart19">ca-app-pub-9876327746881591/7845242297</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart20">ca-app-pub-9876327746881591/2592915610</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart21">ca-app-pub-9876327746881591/5834426125</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart22">ca-app-pub-9876327746881591/9582099442</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart23">ca-app-pub-9876327746881591/3016691095</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart24">ca-app-pub-9876327746881591/2825119403</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart25">ca-app-pub-9876327746881591/4733360775</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart26">ca-app-pub-9876327746881591/3671297211</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart27">ca-app-pub-9876327746881591/1045133878</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart28">ca-app-pub-9876327746881591/1045133878</string>
+    <string name="admob_rewarded_id_pipefittertrainingpart29">ca-app-pub-9876327746881591/4493424293</string>
+
+    <!--Learn Isometric Drawing-->
+    <string name="admob_rewarded_id_learnisometricdrawingvideosmenu">9876327746881591/7684343585</string>
+    <string name="admob_rewarded_id_learnisometricdrawingvide1">ca-app-pub-9876327746881591/7684343585</string>
+    <string name="admob_rewarded_id_learnisometricdrawingvideo2">ca-app-pub-9876327746881591/4294941720</string>
+    <string name="admob_rewarded_id_learnisometricdrawingvideo3">ca-app-pub-9876327746881591/1421366373</string>
+    <string name="admob_rewarded_id_learnisometricdrawingvideo4">ca-app-pub-9876327746881591/5169039697</string>
+
+    <!--cantelever support -->
+    <string name="admob_rewarded_id_canteleversupportvideomenu">9876327746881591/8967624418</string>
+    <string name="admob_rewarded_id_toaisebantahaiyesupport">ca-app-pub-9876327746881591/4754106724</string>
+
+    <!--plate right angle trick-->
+    <string name="admob_rewarded_id_platekarightanglekaisenikalevideomenu">9876327746881591/9447481467</string>
+    <string name="admob_rewarded_id_platekarightanglekaisenikale">ca-app-pub-9876327746881591/9447481467</string>
+    <string name="admob_rewarded_id_rightangletriangle1">ca-app-pub-9876327746881591/8972553338</string>
+    <string name="admob_rewarded_id_rightangletriangle2">ca-app-pub-9876327746881591/8872195570</string>
+
+
+    <!--staircase video menu-->
+    <string name="admob_rewarded_id_staircasekaisebanayevideosmenu">9876327746881591/9447481467</string>
+    <string name="admob_rewarded_id_staircasekaisebanaye">ca-app-pub-9876327746881591/8090716504</string>
+    <string name="admob_rewarded_id_staircasekafittinglive">ca-app-pub-9876327746881591/2459115872</string>
+    <string name="admob_rewarded_id_staircasekalayoutkaisekare">ca-app-pub-9876327746881591/5823645816</string>
+
+    <!--handrail video menu-->
+    <string name="admob_rewarded_id_handrailkaisebanayevideosmenu">9876327746881591/9447481467</string>
+    <string name="admob_rewarded_id_handrailkaisebanaye1">ca-app-pub-9876327746881591/9571319139</string>
+    <string name="admob_rewarded_id_handrailkaisebanaye2">ca-app-pub-9876327746881591/9571319139</string>
+
+
+    <!--Reducer Video Menu-->
+    <string name="admob_rewarded_id_reducervideomenu">9876327746881591/9447481467</string>
+    <string name="admob_rewarded_id_4by2inchreducer">ca-app-pub-9876327746881591/2455246444</string>
+    <string name="admob_rewarded_id_reducerbananekatarika">ca-app-pub-9876327746881591/3834393839</string>
+
+    <string name="admob_rewarded_id_4by2eccentricreducer">ca-app-pub-9876327746881591/7264719995</string>
+    <string name="admob_rewarded_id_3by2eccentricreducer">ca-app-pub-9876327746881591/9615551167</string>
+    <string name="admob_rewarded_id_10by6eccentricreducer">ca-app-pub-9876327746881591/9632681278</string>
+    <string name="admob_rewarded_id_platekaeccentricreducer">ca-app-pub-9876327746881591/4668963355</string>
+
+
+    <!--tee branch video menu-->
+    <string name="admob_rewarded_id_teebranchvideomenu">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_equalteebranch">9876327746881591/7484211848</string>
+    <string name="admob_rewarded_id_equalteebranch1">ca-app-pub-9876327746881591/1145501374</string>
+    <string name="admob_rewarded_id_equalteebranch2">ca-app-pub-9876327746881591/1145501374</string>
+    <string name="admob_rewarded_id_equalteebranch3">ca-app-pub-9876327746881591/1145501374</string>
+
+    <string name="admob_rewarded_id_unequalteebranch">9876327746881591/5648385996</string>
+    <string name="admob_rewarded_id_unequalteebranch1">ca-app-pub-9876327746881591/7004881455</string>
+    <string name="admob_rewarded_id_unequalteebranch2">ca-app-pub-9876327746881591/7004881455</string>
+
+    <string name="admob_rewarded_id_equallateralteebranch">9876327746881591/5456814301</string>
+    <string name="admob_rewarded_id_equallateralteebranch1">ca-app-pub-9876327746881591/4374299945</string>
+    <string name="admob_rewarded_id_equallateralteebranch2">ca-app-pub-9876327746881591/4374299945</string>
+
+    <string name="admob_rewarded_id_unequallateralteebranch">ca-app-pub-9876327746881591/5501864575</string>
+
+
+    <!--How to make flange video menu-->
+    <string name="admob_rewarded_id_howtomakeflangevideomenu">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_platekaflangekaisebanaye">ca-app-pub-9876327746881591/1872507101</string>
+    <string name="admob_rewarded_id_10meterdiaflange">ca-app-pub-9876327746881591/2092833104</string>
+    <string name="admob_rewarded_id_flangefabricationlivevideo">ca-app-pub-9876327746881591/6962016409</string>
+    <string name="admob_rewarded_id_typesofflangevideo">ca-app-pub-9876327746881591/9559425432</string>
+    <string name="admob_rewarded_id_howtofitupflangeanydegree">ca-app-pub-9876327746881591/2639628011</string>
+
+
+    <!--How to make cone video menu-->
+    <string name="admob_rewarded_id_howtomakeconevideomenu">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_fulldetailofbigcone">ca-app-pub-9876327746881591/4906698708</string>
+    <string name="admob_rewarded_id_galathaikya">ca-app-pub-9876327746881591/5480865038</string>
+    <string name="admob_rewarded_id_conebananekatarika">ca-app-pub-9876327746881591/3784639981</string>
+    <string name="admob_rewarded_id_platekaconekaisebanaye">ca-app-pub-9876327746881591/2088414939</string>
+    <string name="admob_rewarded_id_10meterdiaconeformula">ca-app-pub-9876327746881591/6649927735</string>
+    <string name="admob_rewarded_id_conekavajankaisenikalevideo">ca-app-pub-9876327746881591/3756719829</string>
+
+
+    <!--Plate to Reducer video menu-->
+    <string name="admob_rewarded_id_platetoreducer">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_platetoconcentricreducer">ca-app-pub-9876327746881591/9057982113</string>
+    <string name="admob_rewarded_id_platetoeccentricreducer1">ca-app-pub-9876327746881591/6155937860</string>
+    <string name="admob_rewarded_id_platetoeccentricreducer2">ca-app-pub-9876327746881591/9632697188</string>
+
+    <!--Miter Bend-->
+    <string name="admob_rewarded_id_miterbendvideomenu">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_90degreesinglecut">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_90degree2cut">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_90degree3cut">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_45degree1cut">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_45degree2cut">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_45degree3cut">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_anydegreemitercuttingbestformula">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_1800diamiterbend">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_2100diamiterbend">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_45degreesinglecut">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_45degreesinglecut2">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_platekamiterkaisebanaye">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_180degreemiterbend">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_howtodrawelbowradius">ca-app-pub-9876327746881591/9391641146</string>
+    <string name="admob_rewarded_id_1800dia22.5degree">ca-app-pub-9876327746881591/9391641146</string>
+
+    <!--r pad-->
+    <string name="admob_rewarded_id_rpadkaisebanaye">ca-app-pub-9876327746881591/3537776712</string>
+
+    <!--Water level kaise check kare-->
+    <string name="admob_rewarded_id_waterlevelkaisecheckkare">ca-app-pub-9876327746881591/7093878347</string>
+
+    <!--elbow radius formula-->
+    <string name="admob_rewarded_id_elbowradiusformula">ca-app-pub-9876327746881591/8023816638</string>
+
+    <!--Miter Bend layout-->
+    <string name="admob_rewarded_id_miterbendlayout">ca-app-pub-9876327746881591/5206081602</string>
+
+    <!--types of hopper video menu-->
+    <string name="admob_rewarded_id_typesofhoppervideomenu">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_typesofhopper">ca-app-pub-9876327746881591/6131601728</string>
+    <string name="admob_rewarded_id_roundtosquare">ca-app-pub-9876327746881591/6131601728</string>
+    <string name="admob_rewarded_id_squaretoround">ca-app-pub-9876327746881591/6131601728</string>
+    <string name="admob_rewarded_id_rectangletoround">ca-app-pub-9876327746881591/6131601728</string>
+    <string name="admob_rewarded_id_roundtorectangle">ca-app-pub-9876327746881591/6131601728</string>
+
+
+    <!--y branch video menu-->
+    <string name="admob_rewarded_id_ybranchkaisebanayevideomenu">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_ybranchkaisebanaye">ca-app-pub-9876327746881591/3635336876</string>
+
+
+    <!--drawing fitter imp video menu-->
+
+    <string name="admob_rewarded_id_drawingfitterimportantvideomenu">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_structurefitterveryimportant">ca-app-pub-9876327746881591/1099315631</string>
+    <string name="admob_rewarded_id_veryimportantfordrawingfitter">ca-app-pub-9876327746881591/1099315631</string>
+    <string name="admob_rewarded_id_drawingfitterkeliyeimportant">ca-app-pub-9876327746881591/1099315631</string>
+    <string name="admob_rewarded_id_drawingmefronttop">ca-app-pub-9876327746881591/1099315631</string>
+    <string name="admob_rewarded_id_heightkejagahpe">ca-app-pub-9876327746881591/1099315631</string>
+    <string name="admob_rewarded_id_sirfdrawingfitterkeliye">ca-app-pub-9876327746881591/1099315631</string>
+    <string name="admob_rewarded_id_typesofdrawing">ca-app-pub-9876327746881591/1099315631</string>
+    <string name="admob_rewarded_id_cglinekyahotahai">ca-app-pub-9876327746881591/1099315631</string>
+    <string name="admob_rewarded_id_basicofisometricdrawing">ca-app-pub-9876327746881591/1099315631</string>
+
+
+    <!--plate ka tank kaise bnaye video menu-->
+    <string name="admob_rewarded_id_platekatankkaisebnayevideomenu">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_tankpart1">ca-app-pub-9876327746881591/4644062563</string>
+    <string name="admob_rewarded_id_tankpart2">ca-app-pub-9876327746881591/4644062563</string>
+    <string name="admob_rewarded_id_tankpart3">ca-app-pub-9876327746881591/4644062563</string>
+    <string name="admob_rewarded_id_tankpart4">ca-app-pub-9876327746881591/4644062563</string>
+
+
+    <!--Any Degree Pipe Offset-->
+    <string name="admob_rewarded_id_anydegreepipeoffset">ca-app-pub-9876327746881591/3984235942</string>
+
+    <!--Dummy Support-->
+    <string name="admob_rewarded_id_dummysupport">ca-app-pub-9876327746881591/5574000854</string>
+
+    <!--Arc Length-->
+    <string name="admob_rewarded_id_arclength">ca-app-pub-9876327746881591/5279591038</string>
+
+    <!--Chord Length-->
+    <string name="admob_rewarded_id_chordlength">ca-app-pub-9876327746881591/5892166251</string>
+
+    <!--Arc length to Chord length-->
+    <string name="admob_rewarded_id_arclengthtochordlength">ca-app-pub-9876327746881591/4999285789</string>
+
+    <!--Chord Length to Arc Length-->
+    <string name="admob_rewarded_id_chordlengthtoarclength">ca-app-pub-9876327746881591/7433877434</string>
+
+    <!--Pipe Rolling Offset-->
+    <string name="admob_rewarded_id_piperollingoffsetvideomenu">9876327746881591/4616142402</string>
+    <string name="admob_rewarded_id_piperollingoffset1">ca-app-pub-9876327746881591/4616142402</string>
+    <string name="admob_rewarded_id_piperollingoffset2">ca-app-pub-9876327746881591/4616142402</string>
+    <string name="admob_rewarded_id_piperollingoffset3">ca-app-pub-9876327746881591/4616142402</string>
+    <string name="admob_rewarded_id_piperollingoffset4">ca-app-pub-9876327746881591/4616142402</string>
+    <string name="admob_rewarded_id_piperollingoffset5">ca-app-pub-9876327746881591/4616142402</string>
+    <string name="admob_rewarded_id_piperollingoffset6">ca-app-pub-9876327746881591/4616142402</string>
+    <string name="admob_rewarded_id_piperollingoffset7">ca-app-pub-9876327746881591/4616142402</string>
+
+
+    <!--180° Miter Bend-->
+    <string name="admob_rewarded_id_miterbend180degree">ca-app-pub-9876327746881591/7050734051</string>
+
+    <!--pipeidodcfnpsdnnb-->
+    <string name="admob_rewarded_id_pipeidodcfnpsdnnb">ca-app-pub-9876327746881591/6764412149</string>
+
+    <!--measurementtapekebareme-->
+    <string name="admob_rewarded_id_measurementtapekebareme">ca-app-pub-9876327746881591/1415263999</string>
+
+    <!--weight calculation-->
+    <string name="admob_rewarded_id_weightcalculationvideomenu">9876327746881591/1615979515</string>
+    <string name="admob_rewarded_id_pipekavajankaisenikale">ca-app-pub-9876327746881591/1233400781</string>
+    <string name="admob_rewarded_id_platekavajankaisenikale">ca-app-pub-9876327746881591/1561807498</string>
+    <string name="admob_rewarded_id_beamchannelangleweight">ca-app-pub-9876327746881591/2491745783</string>
+    <string name="admob_rewarded_id_conekavajankaisenikale">ca-app-pub-9876327746881591/2300174090</string>
+    <string name="admob_rewarded_id_weldingkavajankaisenikal">ca-app-pub-9876327746881591/1493524736</string>
+    <string name="admob_rewarded_id_filletweldkavajankaisenikale">ca-app-pub-9876327746881591/9275526421</string>
+
+
+    <string name="admob_rewarded_id_watchmorevideos">ca-app-pub-9876327746881591/8136918150</string>
+
+    <string name="text1">How to start cutting set?\nFor starting cutting set first release few oxygen and few lpg and then spark the lighter.</string>
+
+
+    <string name="admob_rewarded_id_equalteebranchheaderholeformulapdf">ca-app-pub-9876327746881591/2491745783</string>
+    <string name="admob_rewarded_id_unequalteebranchheaderholeformulapdf">ca-app-pub-9876327746881591/2300174090</string>
+    <string name="admob_rewarded_id_equallateralteebranchheaderholeformulapdf">ca-app-pub-9876327746881591/1493524736</string>
+    <string name="admob_rewarded_id_unequallateralteebranchheaderholeformulapdf">ca-app-pub-9876327746881591/9275526421</string>
+
+
+    <string name="admob_banner_header_hole_equal_tee">ca-app-pub-9876327746881591/7012081312</string>
+    <string name="admob_banner_header_hole_unequal_tee">ca-app-pub-9876327746881591/5778890695</string>
+    <string name="admob_banner_header_hole_equal_lateral_tee">ca-app-pub-9876327746881591/3891093957</string>
+    <string name="admob_banner_header_hole_unequal_lateral_tee">ca-app-pub-9876327746881591/5152204736</string>
+
+
+    <string name="admob_interstitial_id_header_hole_equal_tee_pdf">ca-app-pub-9876327746881591/5098581452</string>
+    <string name="admob_interstitial_id_header_hole_unequal_tee_pdf">ca-app-pub-9876327746881591/2603160498</string>
+    <string name="admob_interstitial_id_header_hole_equal_lateral_tee_pdf">ca-app-pub-9876327746881591/7473463351</string>
+    <string name="admob_interstitial_id_header_hole_unequal_lateral_tee_pdf">ca-app-pub-9876327746881591/9384191265</string>
+
+
+    <string name="admob_banner_header_hole_equal_tee_pdf">ca-app-pub-9876327746881591/5996730158</string>
+    <string name="admob_banner_header_hole_unequal_tee_pdf">ca-app-pub-9876327746881591/3178995129</string>
+    <string name="admob_banner_header_hole_equal_lateral_tee_pdf">ca-app-pub-9876327746881591/2987423432</string>
+    <string name="admob_banner_header_hole_unequal_lateral_tee_pdf">ca-app-pub-9876327746881591/5098581452</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.piperollingoffsetvideomenu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3E3E0"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/how_to_make_offset_part_4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Pipe ka Offset kaise banaya jata hai?" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/double_cut_offset_part_5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Double cut me offset kaise banaye?" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/double_rolling_offset_part_6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Double Rolling Offset Banana sikhe" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/single_rolling_offset_part_7" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Single Rolling Offset Banane ka tarika" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/double_rolling_offset_part_8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Double Rolling Offset Banane ka tarika"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/single_double_rolling_offset_fixed_pipe_trick_part_9" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Ye Pipe Fix Rahne pe kya kare?" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/kon_sa_bend_lagege_part_10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Dono me se kon sa bend lagaye?" />
+
+    </LinearLayout>
+
+</ScrollView>

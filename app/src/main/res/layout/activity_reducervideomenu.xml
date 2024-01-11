@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.reducervideomenu">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#F8F6F6"
+        android:foreground="@drawable/concemtric_logo"
+        android:text="CONCENTRIC REDUCER"
+        app:cornerRadius="10dp"
+        app:strokeColor="#000000"
+        app:strokeWidth="30dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:foreground="@drawable/eccentric_logo"
+        android:text="ECCENTRIC REDUCER"
+        app:cornerRadius="10dp"
+        app:strokeWidth="5dp" />
+
+
+</LinearLayout>

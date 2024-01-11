@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.drawingfitterkaisebanevideomenu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3E3E0"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/structure_fitter_basic_information" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Structure Fitter Very Important" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/drawing_fitter_important_information" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Very Important for Drawing Fitter" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/drawing_fitter_imp_information" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Drawing Fitter ke liye Very Important " />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/drawing_ka_front_top_side_kaise_pata_kare" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Drawing me Front Top and Side kaise pta kare" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/hight_ke_jagah_pe_ye_likha" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Height ke jagah pe ye kyu?" />
+
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/only_for_drawing_fitter" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Sirf Drawing Fitter ke liye" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/types_of_drawing" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Types of Drawing" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/cg_line_kya_hai" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="CG Line Kya Hota Hai" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/basic_of_isometric" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Basic of Isometric Drawing" />
+
+    </LinearLayout>
+
+</ScrollView>

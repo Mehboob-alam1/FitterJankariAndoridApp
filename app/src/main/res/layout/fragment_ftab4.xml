@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ftab4">
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/screen1_recyclerview"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:backgroundTint="#D0C8C8FE"
+            android:fontFamily="monospace"
+            android:text="live working video"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="diagonal kya hota hai"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#D0C8C8FE"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="very important for column fabrication"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="pipe fitter basic to advance"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="learn isometric drawing"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="cantilever support kaise banaye"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="plate right angle trick"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="staircase kaise banaye"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="handrail kaise banaye"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="eccentric reducer"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="tee branch"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="how to make flange"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="how to make cone"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="plate to reducer"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="miter bend"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="r pad kaise banaye"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="water level kaise check kare"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="elbow radius formula"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="miter bend layout"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="types of hoper"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="y branch kaise banaye"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="drawing fitter imp"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="plate ka tank kaise banaye"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="any degree pipe offset"
+            android:textSize="20dp"
+            android:visibility="gone"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="dummy support"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="arc length"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="chord length"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="arc length to chord length"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="chord length to arc length"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="pipe rolling offset"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="180° miter bend"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="pipe id od cf nb dns nps"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="measurement tape ke bare me"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="weigth calculation"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1px"
+            android:fontFamily="monospace"
+            android:text="watch more videos"
+            android:textSize="20dp"
+            android:backgroundTint="#D0C8C8FE"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

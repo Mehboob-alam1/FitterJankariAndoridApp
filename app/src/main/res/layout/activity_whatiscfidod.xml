@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fitterkipurijankarisalman.myapplication.activity.whatiscfidod">
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/whatiscfidod_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_idodcfkyahotahai" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="617dp"
+        app:srcCompat="@drawable/cfidods" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="387dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Play video"
+        android:textSize="20dp" />
+
+</LinearLayout>
